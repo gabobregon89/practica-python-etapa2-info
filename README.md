@@ -1,0 +1,1 @@
+En este repositorio se iran cargando los ejercicios de practica en python a medida que vaya avanzando el cursado de la Etapa 2 del Informatorio 2025.
