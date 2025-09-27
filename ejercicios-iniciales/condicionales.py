@@ -1,5 +1,9 @@
-# Estructuras condicionales
-# Son aquellas que permiten ejecutar determinadas partes del código según se cumpla o no cierta condición.
+# Estructuras condicionales:
+# Son aquellas que permiten ejecutar determinadas 
+# partes del código según se cumpla o no cierta condición.
+
+# Ejemplo: Se solicita al usuario que ingrese su edad 
+# y se imprimira un mensaje dependiendo del valor ingresado.
 
 # Si / if
 
