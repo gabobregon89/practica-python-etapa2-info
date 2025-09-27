@@ -7,7 +7,7 @@
 
 # Si / if
 
-print("Ingresa un tu edad:")
+print("Ingresa tu edad:")
 edad = int(input())
 
 if edad >= 18:
@@ -16,7 +16,7 @@ if edad >= 18:
 
 # SINO / if ... else
 
-print("Ingresa un tu edad:")
+print("Ingresa tu edad:")
 edad = int(input())
 
 if edad >= 18:
@@ -27,7 +27,7 @@ else:
 
 # SINO SI / if ... elif ... else
 
-print("Ingresa un tu edad:")
+print("Ingresa tu edad:")
 edad = int(input())
 
 if edad >= 18:
@@ -36,3 +36,18 @@ elif edad >= 16:
     print("Sos menor pero podes votar")
 else:
     print("Sos menor de edad")
+
+# Agreando una mini validación:
+# La función isdigit() devuelve un valor booleano
+# validando si lo que se ingreso son solamente numero enteros
+
+print("Ingresa tu edad:")
+edad = input()
+
+if edad.isdigit():
+    edad = int(edad)
+    if edad >= 18:
+        print("Sos mayor de edad")
+else:
+    print("Tenes que ingresar un numero entero")
+
